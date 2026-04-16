@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bywhq65pdcni0" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://befduus24c8nn" path="res://assets/Terrain/Terrain (16x16).png" id="2_yqjtg"]
 [ext_resource type="PackedScene" uid="uid://cxc6ai2wobky1" path="res://scenes/platform.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dfdtnwj71fthp" path="res://scenes/apple.tscn" id="4_lbhrr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("2_yqjtg")
@@ -325,3 +326,12 @@ position = Vector2(226, -65)
 [node name="AnimationPlayer" type="AnimationPlayer" parent="platform3" unique_id=5160878]
 libraries/ = SubResource("AnimationLibrary_iywne")
 autoplay = &"move"
+
+[node name="apple2" parent="." unique_id=113931237 instance=ExtResource("4_lbhrr")]
+position = Vector2(168, -60)
+
+[node name="apple3" parent="." unique_id=786219344 instance=ExtResource("4_lbhrr")]
+position = Vector2(352, -92)
+
+[node name="apple4" parent="." unique_id=2050265603 instance=ExtResource("4_lbhrr")]
+position = Vector2(456, -44)
