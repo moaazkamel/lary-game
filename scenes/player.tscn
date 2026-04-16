@@ -84,7 +84,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_jej6c")
 }],
 "loop": true,
-"name": &"default",
+"name": &"idel",
 "speed": 10.0
 }]
 
@@ -95,10 +95,12 @@ radius = 8.0
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1908256758]
+position = Vector2(0, -16)
 sprite_frames = SubResource("SpriteFrames_f1ej7")
-autoplay = "default"
-frame_progress = 0.64365256
+animation = &"idel"
+autoplay = "idel"
+frame_progress = 0.4253797
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=148781467]
-position = Vector2(1, 7)
+position = Vector2(0, -8)
 shape = SubResource("CircleShape2D_oprun")
