@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://lpw1woww4qn1"]
+
+[ext_resource type="Texture2D" uid="uid://c3pnuxdcrjmlk" path="res://assets/Traps/Rock Head/Blink (42x42).png" id="1_fryaj"]
+[ext_resource type="PackedScene" uid="uid://naktp61p03ko" path="res://scenes/killzone.tscn" id="2_hvpqs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c046s"]
+atlas = ExtResource("1_fryaj")
+region = Rect2(0, 0, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jeork"]
+atlas = ExtResource("1_fryaj")
+region = Rect2(42, 0, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g4y24"]
+atlas = ExtResource("1_fryaj")
+region = Rect2(84, 0, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_805kc"]
+atlas = ExtResource("1_fryaj")
+region = Rect2(126, 0, 42, 42)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3hepj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c046s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jeork")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g4y24")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_805kc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x4qd3"]
+size = Vector2(16, 16.125)
+
+[node name="Head rock" type="Node2D" unique_id=547484193]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1895428280]
+scale = Vector2(0.52380955, 0.5238096)
+sprite_frames = SubResource("SpriteFrames_3hepj")
+autoplay = "default"
+frame_progress = 0.07088806
+
+[node name="Killzone" parent="." unique_id=2114822511 instance=ExtResource("2_hvpqs")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone" unique_id=2096668252]
+position = Vector2(0, -0.0625)
+shape = SubResource("RectangleShape2D_x4qd3")
