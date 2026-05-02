@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://byicr5qosfad3" path="res://assets/Traps/Platforms/Grey Off.png" id="1_ba0x2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nlgqw"]
-size = Vector2(32, 7)
+size = Vector2(32, 6)
 
 [node name="platform" type="AnimatableBody2D" unique_id=1335574063]
 
@@ -11,6 +11,6 @@ size = Vector2(32, 7)
 texture = ExtResource("1_ba0x2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=783510404]
-position = Vector2(0, 0.5)
+position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_nlgqw")
 one_way_collision = true
