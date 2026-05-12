@@ -24,7 +24,7 @@ player.tscn → Player character platform.tscn → Platforms apple.tscn → Coll
 
 Screenshots:
 
-<img width="2879" height="1619" alt="Screenshot 2026-05-02 214854" src="https://github.com/user-attachments/assets/1c7c81c8-2479-4427-8eaa-19e1333745fb" />
+<img width="2879" height="1619" alt="Screenshot 2026-05-12 221908" src="https://github.com/user-attachments/assets/2fec243f-9b14-44ab-8a46-a76c891b4807" />
 
 
 Inspiration:
