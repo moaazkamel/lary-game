@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://cfaldmc4c1tyg"]
+
+[ext_resource type="Script" uid="uid://b2ai1uu6rnwfx" path="res://scenes/finish_menu.gd" id="1_w30l1"]
+[ext_resource type="FontFile" uid="uid://iwaxegao0f83" path="res://ARCADECLASSIC.TTF" id="3_cjich"]
+
+[node name="Main_Menu" type="Node2D" unique_id=1530608223]
+script = ExtResource("1_w30l1")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1381760136]
+offset_left = -1147.568
+offset_top = -667.8679
+offset_right = -1050.2164
+offset_bottom = -570.51636
+scale = Vector2(35.814205, 20.639997)
+size_flags_horizontal = 4
+color = Color(0.49374765, 0.45010442, 0.44791806, 1)
+
+[node name="Label3" type="Label" parent="." unique_id=1834340820]
+offset_left = -245.0
+offset_top = 159.0
+offset_right = 2732.0
+offset_bottom = 464.0
+scale = Vector2(0.80172336, 0.7786888)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_cjich")
+theme_override_font_sizes/font_size = 128
+text = "Thank you, you  have  now  finished 
+                                                 the  game  "
+
+[node name="Label4" type="Label" parent="." unique_id=39051963]
+offset_left = -809.0
+offset_top = 873.0
+offset_right = -89.0
+offset_bottom = 1178.0
+scale = Vector2(0.80172336, 0.7786888)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_cjich")
+theme_override_font_sizes/font_size = 128
+text = "by:
+Moaaz Kamel"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1620170065]
+position = Vector2(578.00006, 323)
+scale = Vector2(35.814205, 20.639997)
