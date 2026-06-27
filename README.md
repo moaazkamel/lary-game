@@ -5,6 +5,7 @@ A simple yet challenging 2D platformer where the player navigates through a dang
 Gameplay and Objective:
 
 Explore a level filled with tricky platforms Collect all Apples to maximize your score Avoid falling into holes Reach the end point safely
+
 Control Strategies:
 W / Up Arrow : Move Forward
 S/ Down Arrow : Go Backwards
