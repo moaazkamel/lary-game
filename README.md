@@ -34,5 +34,6 @@ Sound Design: Implementation of music, sound when jumping, apples picking sounds
 Various levels: Making different levels which will be more difficult then the previous one.
 Checkpoints: Respawn at checkpoints.
 User Interface/User Experience Improvements: Adding main menu, pause menu, score, HUD animation, and game over screen.
+
 Author:
 Moaaz Kamel
